@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.LinearLayoutTask" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.LinearLayoutTask" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
@@ -12,5 +12,37 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+    </style>
+
+    <style name="headlineText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:color">@color/black</item>
+        <item name="android:layout_marginTop">12dp</item>
+    </style>
+
+    <style name="bodyText">
+        <item name="android:textSize">12sp</item>
+        <item name="android:color">@color/grey87</item>
+    </style>
+
+    <style name="subBodyText">
+        <item name="android:textSize">13sp</item>
+        <item name="android:color">@color/lightGrey</item>
+        <item name="android:layout_marginStart">4dp</item>
+    </style>
+
+    <style name="bodyText2">
+        <item name="android:textSize">12sp</item>
+        <item name="android:color">@color/black</item>
+        <item name="android:layout_marginEnd">4dp</item>
+    </style>
+
+    <style name="bodyText3">
+        <item name="android:textSize">12sp</item>
+        <item name="android:color">@color/white</item>
+        <item name="android:layout_marginEnd">4dp</item>
+        <item name="android:layout_marginStart">25dp</item>
+        <item name="android:paddingVertical" tools:targetApi="o">4dp</item>
+        <item name="android:paddingHorizontal" tools:targetApi="o">8dp</item>
     </style>
 </resources>
