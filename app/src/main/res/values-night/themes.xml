@@ -13,4 +13,10 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="headlineText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:color">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
 </resources>
