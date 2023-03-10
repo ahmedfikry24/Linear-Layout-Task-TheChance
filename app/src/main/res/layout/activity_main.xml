@@ -1,12 +1,16 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="328dp"
+    android:layout_height="117dp"
+    android:layout_margin="@dimen/margin_16"
+    >
 
     <ImageView
         android:layout_width="93dp"
         android:layout_height="93dp"
         android:layout_margin="@dimen/margin_12"
-        android:src="@drawable/card_image" />
+        android:src="@drawable/card_image"
+        />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -25,51 +29,34 @@
             style="@style/bodyText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/margin_8"
-            android:layout_marginBottom="@dimen/margin_8"
+            android:layout_marginVertical="@dimen/margin_8"
             android:fontFamily="@font/dm_scans_mediam"
             android:text="@string/engineer"
             android:textColor="@color/grey87" />
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center_horizontal">
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="3dp"
-                android:src="@drawable/ic_location" />
-
-            <TextView
+        <TextView
                 style="@style/subBodyText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/dm_scans_regular"
-                android:text="@string/uk" />
-        </LinearLayout>
+                android:text="@string/uk"
+                android:layout_marginBottom="@dimen/margin_8"
+                android:drawablePadding="@dimen/margin_4"
+                app:drawableStartCompat="@drawable/ic_location"
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/margin_8"
-            android:layout_marginBottom="@dimen/margin_11">
+            />
 
-            <TextView
+        <TextView
                 style="@style/bodyText2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/dm_scans_regular"
                 android:text="@string/_150_reviews_4_5"
-                android:textColor="@color/black" />
+                android:textColor="@color/black"
+                android:drawablePadding="@dimen/margin_4"
+                app:drawableEndCompat="@drawable/ic_star" />
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/margin_3"
-                android:src="@drawable/ic_star" />
-        </LinearLayout>
+
 
     </LinearLayout>
 
@@ -109,4 +96,5 @@
             android:textColor="@color/grey38" />
 
     </LinearLayout>
+
 </LinearLayout>
