@@ -11,4 +11,5 @@
     <color name="grey38">#61122940</color>
     <color name="lightGrey">#99263238</color>
     <color name="red">#FF0D0D</color>
+    <color name="cardBackground">#F8F8F8</color>
 </resources>

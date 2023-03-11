@@ -1,9 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Base application theme. -->
+    <style name="Theme.LinearLayoutTask" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
 
-    <style name="bodyText3">
+    <style name="headlineText"
+        parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginTop">12dp</item>
+    </style>
+
+    <style name="bodyText">
         <item name="android:textSize">12sp</item>
-        <item name="android:color">@color/white</item>
+    </style>
+
+    <style name="uk">
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="starReviewer" parent="bodyText">
+        <item name="android:layout_marginEnd">4dp</item>
+        <item name="fontFamily">@font/dm_scans_mediam</item>
+        <item name="fontWeight">400</item>
+    </style>
+
+    <style name="timeText" parent="bodyText">
         <item name="android:layout_marginEnd">4dp</item>
         <item name="android:layout_marginStart">25dp</item>
         <item name="android:paddingVertical">4dp</item>
