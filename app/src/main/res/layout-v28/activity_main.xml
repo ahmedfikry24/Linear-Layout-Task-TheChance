@@ -1,6 +1,5 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="@dimen/margin_16"
@@ -28,7 +27,8 @@
             android:fontFamily="@font/dm_snans_bold"
             android:text="@string/ahmed_hassan"
             android:textColor="@color/black"
-             />
+            android:textFontWeight="700"
+            />
 
         <TextView
             style="@style/bodyText"
@@ -38,17 +38,20 @@
             android:fontFamily="@font/dm_scans_mediam"
             android:text="@string/engineer"
             android:textColor="@color/grey87"
+            android:textFontWeight="500"
             />
 
         <TextView
             style="@style/uk"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/dm_scans_regular"
+            android:fontFamily="@font/dm_scans_mediam"
+            android:textFontWeight="400"
             android:text="@string/uk"
             android:layout_marginBottom="@dimen/margin_8"
+            android:drawableStart="@drawable/ic_location"
             android:gravity="start"
-            app:drawableStartCompat="@drawable/ic_location"
+
             />
 
         <LinearLayout
@@ -61,9 +64,10 @@
                 style="@style/bodyText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/dm_scans_regular"
+                android:fontFamily="@font/dm_scans_mediam"
                 android:text="@string/_150_reviews"
                 android:textColor="@color/black"
+                android:textFontWeight="400"
                 android:layout_marginEnd="@dimen/margin_8"
                 />
 
@@ -74,10 +78,10 @@
                 android:textColor="@color/black"
                 style="@style/uk"
                 android:fontFamily="@font/dm_scans_mediam"
+                android:textFontWeight="500"
                 android:drawablePadding="@dimen/margin_4"
                 app:drawableEndCompat="@drawable/ic_star"
                 />
-
         </LinearLayout>
 
     </LinearLayout>
@@ -104,7 +108,8 @@
             android:background="@drawable/text_bk"
             android:text="@string/_3_hr"
             android:textColor="@color/white"
-            android:fontFamily="@font/dm_scans_regular"
+            android:fontFamily="@font/dm_scans_mediam"
+            android:textFontWeight="400"
             />
 
         <TextView
@@ -114,6 +119,7 @@
             android:text="@string/russian"
             android:textColor="@color/grey87"
             android:fontFamily="@font/dm_scans_mediam"
+            android:textFontWeight="500"
             android:layout_marginStart="@dimen/margin_20"
             android:layout_marginTop="@dimen/margin_8"
             android:layout_marginBottom="@dimen/margin_8"
@@ -125,7 +131,8 @@
             android:layout_height="wrap_content"
             android:text="@string/days_ago"
             android:textColor="@color/grey38"
-            android:fontFamily="@font/dm_scans_regular"
+            android:fontFamily="@font/dm_scans_mediam"
+           android:textFontWeight="400"
             />
 
     </LinearLayout>
